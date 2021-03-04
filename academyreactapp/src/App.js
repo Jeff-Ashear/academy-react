@@ -6,6 +6,7 @@ import { Component2 } from './Components/component2.js'
 import { Component3 } from './Components/component3.js'
 import { Component4 } from './Components/component4.js'
 import { Component5 } from './Components/component5.js'
+import { Component7 } from './Components/component7.js'
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
         </a>
       </header>
       <div>
-        <Component5 import="imports" />
+        <Component5 />
       </div>
       <div>
         <Component1 />
@@ -38,6 +39,9 @@ function App() {
       </div>
       <div>
         <Component4 firstName="Fonswhimsy"/>
+      </div>
+      <div>
+        <Component7 />
       </div>
     </div>
   );
