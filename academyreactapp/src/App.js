@@ -6,6 +6,7 @@ import { Component2 } from './Components/component2.js'
 import { Component3 } from './Components/component3.js'
 import { Component4 } from './Components/component4.js'
 import { Component5 } from './Components/component5.js'
+import { Component6 } from './Components/component6.js'
 import { Component7 } from './Components/component7.js'
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <div>
+        <Component6 />
+      </div>
       <div>
         <Component5 />
       </div>

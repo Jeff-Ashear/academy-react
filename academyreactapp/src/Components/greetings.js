@@ -2,7 +2,7 @@ import React from 'react'
 
 export class Greeting extends React.Component {
     render() {
-        if (this.props.signedIn == false) {
+        if (this.props.signedIn === false) {
             return <h1>Get Bent Outa Here</h1>
         } else {
 
