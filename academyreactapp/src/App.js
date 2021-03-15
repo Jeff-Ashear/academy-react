@@ -8,8 +8,10 @@ import { Component4 } from './Components/component4.js'
 import { Component5 } from './Components/component5.js'
 import { Component6 } from './Components/component6.js'
 import { Component7 } from './Components/component7.js'
+import { ColorSwapper } from './Components/colorSwapper'
+import { ClockMonster } from './Components/clockMonster'
 
-function App() {
+function App(props) {
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +19,7 @@ function App() {
         <p>
           Hello Codecademy
         </p>
+        <p name="">Hello, {props.name}</p>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -33,7 +36,13 @@ function App() {
         <Component5 />
       </div>
       <div>
+        <ClockMonster />
+      </div>      
+      <div>
         <Component1 />
+      </div>
+      <div>
+        <ColorSwapper />
       </div>
       <div>
         <Component2 />
